@@ -6,11 +6,11 @@ client = OpenAI()
 completion = client.chat.completions.create(
     model="gpt-4o-audio-preview",
     modalities=["text", "audio"],
-    audio={"voice": "alloy", "format": "mp3"},
+    audio={"voice": "onyx", "format": "mp3"},
     messages=[
         {
-            "role": "fish",
-            "content": "What if I just eat carrot?"
+            "role": "user",
+            "content": "What is your favorite meal?"
         }
     ]
 )
