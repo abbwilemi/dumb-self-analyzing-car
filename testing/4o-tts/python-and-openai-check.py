@@ -9,7 +9,7 @@ def print_python_info():
     print("")
 
     # Print Python Install Directory
-    print("Python Install Directory:")
+    print("Python Install Directory:")wdwd
     print(sys.prefix)
     print("")
 
