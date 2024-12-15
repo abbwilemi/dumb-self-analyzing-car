@@ -30,11 +30,9 @@ Requirements
 Raspberry Pi
 Python 3.10+
 Libraries: OpenCV (for text-to-speech synthesis)
-
 Steps to Run the Project
 Hardware Setup
 Mount the sensors, camera, and speaker on the RC car.
-
 Software Setup
 Clone the repository:
 bash
@@ -45,7 +43,6 @@ Install Python dependencies:
 bash
 Copy code
 pip install -r requirements.txt
-
 Start the AI System
 Run the Python script for object recognition and communication:
 bash
@@ -59,7 +56,7 @@ It takes a photo.
 It provides a verbal description of the object through the speaker.
 The car navigates autonomously and avoids obstacles using sensors.
 
-**Future Improvements**
+**Future Improvements:**
 Implement real-time mapping of the environment.
 Enhance the car’s speech capabilities with natural language understanding.
 Add support for multiple cameras to achieve a 360° field of view.
