@@ -1,6 +1,5 @@
 # AI-Driven RC Car
 
-
 **A smart car that interprets its surroundings:**
 This project aims to design and program a remote-controlled car that, using AI technology and various sensors, can interact with its environment. The car can identify objects, take pictures of its surroundings, and describe what it sees through a speaker.
 
@@ -24,16 +23,18 @@ Sensors for distance and obstacle detection
 Raspberry Pi
 Software:
 Python for AI and image recognition
-Arduino IDE for microcontroller programming
+Raspberry Pi OS for microcontroller programming
 
 **Installation and Execution:**
 Requirements
 Raspberry Pi
 Python 3.10+
 Libraries: OpenCV (for text-to-speech synthesis)
+
 Steps to Run the Project
 Hardware Setup
 Mount the sensors, camera, and speaker on the RC car.
+
 Software Setup
 Clone the repository:
 bash
@@ -44,8 +45,7 @@ Install Python dependencies:
 bash
 Copy code
 pip install -r requirements.txt
-Upload Arduino Code
-Open arduino_code.ino in Arduino IDE and upload it to the microcontroller.
+
 Start the AI System
 Run the Python script for object recognition and communication:
 bash
@@ -58,15 +58,15 @@ When the car identifies an object in its surroundings:
 It takes a photo.
 It provides a verbal description of the object through the speaker.
 The car navigates autonomously and avoids obstacles using sensors.
-Future Improvements
+
+**Future Improvements**
 Implement real-time mapping of the environment.
 Enhance the car’s speech capabilities with natural language understanding.
 Add support for multiple cameras to achieve a 360° field of view.
-License
-This project is developed for educational purposes and is not licensed for commercial use.
 
 **Contact:**
 
 Noah: noah.marklund@hitachigymnasiet.se
 William: william.emilsson@hitachigymnasiet.se
 Axel: axel.roxenborg@hitachigymnasiet.se
+
