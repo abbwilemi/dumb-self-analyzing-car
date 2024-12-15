@@ -68,6 +68,6 @@ This project is developed for educational purposes and is not licensed for comme
 
 **Contact:**
 
-Noah: noah@example.com
-William: william@example.com
-Axel: axel@example.com
+Noah: noah.marklund@hitachigymnasiet.se
+William: william.emilsson@hitachigymnasiet.se
+Axel: axel.roxenborg@hitachigymnasiet.se
