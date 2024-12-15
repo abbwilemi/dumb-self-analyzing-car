@@ -6,7 +6,7 @@ This project aims to design and program a remote-controlled car that, using AI t
 
 **Team Members:**
 William – Responsible for the car's construction and hardware assembly.
-Axel – Responsible for Arduino coding and integration of electronic components.
+Axel – Responsible for Raspberry Pi and integration of electronic components.
 Noah – Responsible for programming AI models for object recognition and software development.
 
 **Features:**
@@ -21,17 +21,16 @@ Remote-controlled car as the base
 Camera for image capturing
 Speaker for voice output
 Sensors for distance and obstacle detection
-Arduino microcontroller
+Raspberry Pi
 Software:
 Python for AI and image recognition
 Arduino IDE for microcontroller programming
-Machine learning libraries: TensorFlow or OpenCV
 
 **Installation and Execution:**
 Requirements
-Arduino IDE
+Raspberry Pi
 Python 3.10+
-Libraries: OpenCV, TensorFlow, pyttsx3 (for text-to-speech synthesis)
+Libraries: OpenCV (for text-to-speech synthesis)
 Steps to Run the Project
 Hardware Setup
 Mount the sensors, camera, and speaker on the RC car.
